@@ -1,4 +1,4 @@
-# Physics Year 2 Computing Project - Imperial College London
+# Physics Year 2 Computing Project Ray Tracer - Imperial College London
 
 # About the code
 
