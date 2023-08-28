@@ -2,40 +2,40 @@
 
 # About the code
 
-## Ray-tracer main module - code does all the work
+## Ray-tracer main module - the code does all the work
 
 ### General functions
 
-- From ray.py -
-Generate rays, ray bundles, a list of ray bundles
+From ray.py
 
-- From optical_element.py -
-Generate optical elements including refracting surfaces (spherical or plano)
-and output plane
+- Generate rays, ray bundles, a list of ray bundles
 
-Propagate rays through the optical elements
+From optical_element.py
 
-Calculate the focal length of any lens system
+- Generate optical elements including refracting surfaces (spherical or plano) and output plane
 
-- From propagate_and_plot.py -
-Plot ray trajectories in 3D and 2D, and plot incident and output spot diagrams
-in 2D
+- Propagate rays through the optical elements
+
+- Calculate the focal length of any lens system
+
+From propagate_and_plot.py
+
+- Plot ray trajectories in 3D and 2D, and plot incident and output spot diagrams in 2D
 
 
 #### For a plano-convex lens
 
-- From propagate_and_plot.py -
-Plot the RMS spot radius (a measure of spherical aberration) against ray bundle
-radius for both orientations
+From propagate_and_plot.py
+
+- Plot the RMS spot radius (a measure of spherical aberration) against ray bundle radius for both orientations
 
 #### For a biconvex lens
 
-- From biconvex_optimization.py -
-Optimise the biconvex lens for its surface curvatures and/or the distance
-between its two surfaces
+From biconvex_optimization.py
 
-Plot the aberration scale against the ray bundle radius for both the
-diffraction scale and the RMS spot radius of a given lens
+- Optimise the biconvex lens for its surface curvatures and/or the distance between its two surfaces
+
+- Plot the aberration scale against the ray bundle radius for both the diffraction scale and the RMS spot radius of a given lens
 
 
 ## Plots 
