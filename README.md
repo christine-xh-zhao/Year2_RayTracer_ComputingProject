@@ -23,13 +23,13 @@ From propagate_and_plot.py
 - Plot ray trajectories in 3D and 2D, and plot incident and output spot diagrams in 2D
 
 
-##### For a plano-convex lens
+#### For a plano-convex lens
 
 From propagate_and_plot.py
 
 - Plot the RMS spot radius (a measure of spherical aberration) against ray bundle radius for both orientations
 
-##### For a biconvex lens
+#### For a biconvex lens
 
 From biconvex_optimization.py
 
@@ -46,7 +46,7 @@ To generate the plots, use task_plots.py
 
 All plots generated can be found in Plots_from_tasks folder
 
-### Plots for testing
+#### Plots for testing
 
 To generate the plots, use test.py
 
