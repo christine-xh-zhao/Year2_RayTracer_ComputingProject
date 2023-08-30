@@ -1,10 +1,10 @@
 # Physics Year 2 Computing Project Ray Tracer - Imperial College London
 
-# About the code
+## About the code
 
-## Ray-tracer main module - the code does all the work
+### Ray-tracer main module - the code does all the work
 
-### General functions
+#### General functions
 
 From ray.py
 
@@ -23,13 +23,13 @@ From propagate_and_plot.py
 - Plot ray trajectories in 3D and 2D, and plot incident and output spot diagrams in 2D
 
 
-#### For a plano-convex lens
+##### For a plano-convex lens
 
 From propagate_and_plot.py
 
 - Plot the RMS spot radius (a measure of spherical aberration) against ray bundle radius for both orientations
 
-#### For a biconvex lens
+##### For a biconvex lens
 
 From biconvex_optimization.py
 
@@ -38,9 +38,9 @@ From biconvex_optimization.py
 - Plot the aberration scale against the ray bundle radius for both the diffraction scale and the RMS spot radius of a given lens
 
 
-## Plots 
+### Plots 
 
-### Requested in tasks
+#### Requested in tasks
 
 To generate the plots, use task_plots.py
 
@@ -53,12 +53,12 @@ To generate the plots, use test.py
 All plots generated can be found in Plots_from_tests folder
 
 
-## Testing
+### Testing
 
 All in test.py
 
 
-# Summary report
+## Summary report
 
 Can be found in Report folder
 
